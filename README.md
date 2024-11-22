@@ -118,17 +118,19 @@ The application will be accessible at [http://localhost:3000](http://localhost:3
 
 ---
 
-## **Folder Structure**
+Folder Structure
+The following is the folder structure of the project:
 
-- **`db.json`**: Mock backend data file.
-- **`src`**: Contains the React application code.
-  - **`components`**: Reusable UI components.
-  - **`pages`**: Pages for the application.
-  - **`services`**: API services for connecting with the backend.
-- **`node_modules`**: Auto-generated folder for dependencies after `npm install`.
-- **`public`**: Public assets like images and the index.html file.
-- **`package.json`**: Project configuration and dependencies.
-
+bash
+Copy code
+src/
+├── components/
+│   ├── Dashboard.js         # Component for the main dashboard UI
+│   ├── Users.js             # Component for managing users
+│   ├── Roles.js             # Component for managing roles
+│   └── Permissions.js       # Component for managing permissions
+├── App.js                   # Root application component
+├── index.js                 # Entry point of the React application
 ---
 
 ## **Troubleshooting**
