@@ -118,11 +118,11 @@ The application will be accessible at [http://localhost:3000](http://localhost:3
 
 ---
 
-Folder Structure
+## **Folder Structure**
+
 The following is the folder structure of the project:
 
-bash
-Copy code
+```
 src/
 ├── components/
 │   ├── Dashboard.js         # Component for the main dashboard UI
@@ -131,6 +131,8 @@ src/
 │   └── Permissions.js       # Component for managing permissions
 ├── App.js                   # Root application component
 ├── index.js                 # Entry point of the React application
+```
+
 ---
 
 ## **Troubleshooting**
