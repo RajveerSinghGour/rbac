@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "User",
+      "email": "user@example.com",
+      "role": "User",
+      "status": "Active"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "permissions": [
+        "Read",
+        "Write",
+        "Delete"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "User",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": "1a6f",
+      "name": "Maneger",
+      "permissions": [
+        "Read",
+        "Write"
+      ]
+    },
+    {
+      "id": "5f53",
+      "name": "SDE",
+      "permissions": [
+        "Read",
+        "Write",
+        "Update"
+      ]
+    }
+  ]
+}
